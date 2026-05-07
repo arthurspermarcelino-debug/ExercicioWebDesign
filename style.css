@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #fff;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bolder;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #0a0606;
+}
+
+input:hover,
+select:hover {
+    border-color: #007BFF;
+    background-color: #f0f8ff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff05de;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f700ff;
+    transform: scale(1.03);
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ea00ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff00f2;
+    text-decoration: underline;
+}
+
+th {
+    text-align: center;
+    margin: 5px;
+    color: rgb(165, 42, 42);
+
+}
+
+td {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 10px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+td:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f0f8ff;
+    color: #010203;
+    width: 100px;
+}
+
+td:nth-child(2) {
+    font-style: unset;
+    color: hsl(0, 0%, 0%);
+}
+
+td:nth-child(3) {
+    color: hsl(0, 0%, 1%);
+    line-height: 1.5;
+}
